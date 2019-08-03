@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    active: dev
+IMAGE_SERVER: http://127.0.0.1
+
+book:
+  author: zzq
+  name: springboot

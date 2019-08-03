@@ -1,0 +1,4 @@
+server:
+  port: 8089
+  servlet: #2.0后采用的
+    context-path: /zzq
