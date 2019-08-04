@@ -1,0 +1,14 @@
+server:
+  port: 8088
+spring:
+  mail:
+    host: smtp.qq.com
+    username: 120@qq.com
+    password: 123
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enabled: true
+            required: true
