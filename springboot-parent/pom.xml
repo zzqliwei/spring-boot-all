@@ -24,6 +24,7 @@
         <module>spring-boot-neo4j</module>
         <module>spring-boot-redis-single</module>
         <module>spring-boot-mogodb</module>
+        <module>spring-boot-activeMQ</module>
     </modules>
     <packaging>pom</packaging>
 
