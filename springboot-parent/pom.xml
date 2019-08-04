@@ -20,6 +20,8 @@
         <module>spring-boot-multjdbc</module>
         <module>spring-boot-jps-hibernate</module>
         <module>spring-boot-mail</module>
+        <module>spring-boot-file</module>
+        <module>spring-boot-neo4j</module>
     </modules>
     <packaging>pom</packaging>
 
