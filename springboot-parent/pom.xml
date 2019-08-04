@@ -25,6 +25,7 @@
         <module>spring-boot-redis-single</module>
         <module>spring-boot-mogodb</module>
         <module>spring-boot-activeMQ</module>
+        <module>spring-boot-RabbitMQ</module>
     </modules>
     <packaging>pom</packaging>
 
