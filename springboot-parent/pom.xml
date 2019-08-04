@@ -23,6 +23,7 @@
         <module>spring-boot-file</module>
         <module>spring-boot-neo4j</module>
         <module>spring-boot-redis-single</module>
+        <module>spring-boot-mogodb</module>
     </modules>
     <packaging>pom</packaging>
 
