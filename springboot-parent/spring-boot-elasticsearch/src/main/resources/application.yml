@@ -1,0 +1,7 @@
+spring:
+  data:
+    elasticsearch:
+      cluster-nodes: 192.168.3.220:9200
+      local: false
+      respositories:
+        enabled: true

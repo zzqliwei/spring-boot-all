@@ -29,6 +29,7 @@
         <module>spring-boot-kafka</module>
         <module>spring-boot-solr</module>
         <module>spring-boot-elasticsearch</module>
+        <module>spring-boot-websocket</module>
     </modules>
     <packaging>pom</packaging>
 
