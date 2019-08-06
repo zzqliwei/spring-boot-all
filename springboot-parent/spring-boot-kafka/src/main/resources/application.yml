@@ -1,0 +1,7 @@
+spring:
+  kafka:
+    producer:
+      bootstrap-servers: 192.168.3.220:9092
+    consumer:
+      group-id: spring-boot-kafka
+      auto-offset-reset: earliest

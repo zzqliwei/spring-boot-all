@@ -26,6 +26,9 @@
         <module>spring-boot-mogodb</module>
         <module>spring-boot-activeMQ</module>
         <module>spring-boot-RabbitMQ</module>
+        <module>spring-boot-kafka</module>
+        <module>spring-boot-solr</module>
+        <module>spring-boot-elasticsearch</module>
     </modules>
     <packaging>pom</packaging>
 
