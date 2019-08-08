@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: spring-boot-oauth2.0
+server:
+  port: 8089
+logging:
+  level:
+    root: info

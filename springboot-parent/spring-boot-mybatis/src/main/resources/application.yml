@@ -22,7 +22,7 @@ spring:
 
 mybatis:
   mapper-locations: classpath:mapping/UserMapper.xml
-  #type-aliases-package: com.westar.pojo
+  #type-aliases-package: com.westar.com.westar.pojo
   config-location: classpath:mybatis/mybatis-config.xml
 pagehelper:
   helperDialect: mysql

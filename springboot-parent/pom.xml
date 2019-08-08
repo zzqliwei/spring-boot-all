@@ -30,6 +30,7 @@
         <module>spring-boot-solr</module>
         <module>spring-boot-elasticsearch</module>
         <module>spring-boot-websocket</module>
+        <module>spring-boot-oauth2.0</module>
     </modules>
     <packaging>pom</packaging>
 

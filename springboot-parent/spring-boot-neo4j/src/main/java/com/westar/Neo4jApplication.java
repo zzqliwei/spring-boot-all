@@ -7,6 +7,6 @@ import org.springframework.data.neo4j.repository.config.EnableNeo4jRepositories;
 
 @SpringBootApplication
 @EnableNeo4jRepositories(basePackages = "com.westar.dao")
-@EntityScan(basePackages = "com.westar.pojo")
+@EntityScan(basePackages = "com.westar.com.westar.pojo")
 public class Neo4jApplication {
 }
