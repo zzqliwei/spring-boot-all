@@ -5,9 +5,7 @@ import org.neo4j.ogm.id.InternalIdStrategy;
 
 @RelationshipEntity(type = "UserRelation")
 public class UserRelation {
-//    @GraphId
-    @Id
-    @GeneratedValue(strategy = InternalIdStrategy.class)
+    @GraphId
     private Long id;
     @StartNode
     private UserNode startNode;

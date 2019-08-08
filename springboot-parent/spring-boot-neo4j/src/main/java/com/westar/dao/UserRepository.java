@@ -11,9 +11,9 @@ import java.util.List;
 @Component
 public interface UserRepository extends Neo4jRepository<UserNode,Long> {
 
-    @Query("MATCH (n:User) return n")
+    @Query("MATCH (n:User) RETURN n")
     List<UserNode> getUserNodeList();
 
-    @Query("INSERT (n:User{age:{age},name:{name} RETURN n}")
-    List<UserNode> addUserNodeList(@Param("name")String name,@Param("age")int age);
+    @Query("create (n:User{age:{age},name:{name}}) RETURN n")
+    List<UserNode> addUserNodeList(@Param("name")String name, @Param("age")int age);
 }

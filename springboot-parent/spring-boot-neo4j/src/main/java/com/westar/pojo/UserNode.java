@@ -1,14 +1,13 @@
 package com.westar.pojo;
 
-import org.neo4j.ogm.annotation.*;
-import org.neo4j.ogm.id.InternalIdStrategy;
+import org.neo4j.ogm.annotation.GraphId;
+import org.neo4j.ogm.annotation.NodeEntity;
+import org.neo4j.ogm.annotation.Property;
 
 @NodeEntity(label = "User")
 public class UserNode {
 
-//    @GraphId
-    @Id
-    @GeneratedValue(strategy = InternalIdStrategy.class)
+    @GraphId
     private Long nodeId;
 
     @Property
